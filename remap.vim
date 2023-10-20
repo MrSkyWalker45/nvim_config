@@ -1,0 +1,20 @@
+nnoremap <leader>h <cmd>wincmd h<CR>
+nnoremap <leader>l <cmd> wincmd l <CR>
+nnoremap <leader>k <cmd>wincmd k <CR>
+nnoremap <leader>h <cmd>wincmd j <CR>
+nnoremap <leader>l <cmd> wincmd l <CR>
+
+nnoremap <leader>i :lua require('config_telescope').search_config()<CR>
+nnoremap <leader>p :lua require('config_telescope').search_programs()<CR>
+nnoremap <leader>fi :lua require('config_telescope').search_word()<CR>
+nnoremap <leader>e :lua require'telescope'.extensions.file_browser.file_browser()<CR>
+nnoremap <leader>h :wincmd h <CR>
+nnoremap <leader>j :wincmd j <CR>
+nnoremap <leader>k :wincmd k <CR>
+nnoremap <leader>l :wincmd l <CR>
+
+nnoremap <silent><leader><tab> <cmd>BufferLineCycleNext<CR>
+nnoremap<silent><leader><S-tab> <cmd>BufferLineCyclePrev<CR>
+
+
+
