@@ -26,13 +26,13 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'lukas-reineke/indent-blankline.nvim'
 
 --File Navigation
-
 Plug ('nvim-telescope/telescope.nvim', { ['tag'] = '0.1.4' })
 Plug ('nvim-telescope/telescope-fzf-native.nvim',{run = 'make'})
 Plug 'nvim-telescope/telescope-file-browser.nvim'
+
 --LSP/AUTOCOMPLETION
 
-Plug 'VonHeikemen/lsp-zero.nvim' 
+Plug 'VonHeikemen/lsp-zero.nvim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
@@ -47,6 +47,7 @@ Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-nvim-lua'
 Plug 'hrsh7th/nvim-cmp'
 Plug "folke/trouble.nvim"
+Plug "sbdchd/neoformat"
 
 
 vim.call('plug#end')
