@@ -7,6 +7,7 @@ nnoremap <leader>l <cmd> wincmd l <CR>
 nnoremap <leader>i :lua require('config_telescope').search_config()<CR>
 nnoremap <leader>p :lua require('config_telescope').search_programs()<CR>
 nnoremap <leader>fi :lua require('config_telescope').search_word()<CR>
+nnoremap <leader>sp :lua require('config_telescope').search_projects()<CR>
 nnoremap <leader>e :lua require'telescope'.extensions.file_browser.file_browser()<CR>
 nnoremap <leader>th :lua require('nvterm.terminal').toggle "horizontal" <CR>
 nnoremap <leader>tv :lua require('nvterm.terminal').toggle "vertical"<CR>

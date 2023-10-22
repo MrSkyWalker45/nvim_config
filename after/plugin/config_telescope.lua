@@ -34,7 +34,7 @@ M.search_projects = function()
         prompt_title = "<PROJECTS>",
         prompt_prefix="❯❯",
         cwd = "~/projects/",
-        file_ignore_patterns = {"^node_modules/"}
+        file_ignore_patterns = {"^node_modules/","/^assets/"}
     })
 end
 
