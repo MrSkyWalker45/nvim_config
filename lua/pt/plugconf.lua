@@ -7,6 +7,8 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-treesitter/playground'
 Plug ('nvim-treesitter/nvim-treesitter', {['do'] = ':TSUpdate'})
+--Terminal
+Plug "NvChad/nvterm"
 
 --Themes
 
@@ -14,6 +16,8 @@ Plug ('folke/tokyonight.nvim', {[ 'branch']= 'main' })
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'folke/lsp-colors.nvim'
 Plug 'nvim-lualine/lualine.nvim'
+Plug 'akinsho/bufferline.nvim'
+Plug 'joshdick/onedark.vim'
 
 --Formating
 
@@ -26,7 +30,7 @@ Plug 'lukas-reineke/indent-blankline.nvim'
 Plug ('nvim-telescope/telescope.nvim', { ['tag'] = '0.1.4' })
 Plug ('nvim-telescope/telescope-fzf-native.nvim',{run = 'make'})
 Plug 'nvim-telescope/telescope-file-browser.nvim'
---LSP-AUTOCOMPLETION
+--LSP/AUTOCOMPLETION
 
 Plug 'VonHeikemen/lsp-zero.nvim' 
 Plug 'neovim/nvim-lspconfig'
@@ -34,12 +38,15 @@ Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'rafamadriz/friendly-snippets'
+Plug 'saadparwaiz1/cmp_luasnip'
+Plug ('dsznajder/vscode-es7-javascript-react-snippets', { ['do'] = 'yarn install --frozen-lockfile && yarn compile' })
+
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-nvim-lua'
-Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'hrsh7th/nvim-cmp'
+Plug "folke/trouble.nvim"
 
 
 vim.call('plug#end')

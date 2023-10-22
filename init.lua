@@ -5,4 +5,5 @@ vim.opt.listchars:append "eol:↴"
 
 vim.cmd[[
 source ~/.config/nvim/remap.vim
+source ~/.config/nvim/after/plugin/config_telescope.lua
 ]]

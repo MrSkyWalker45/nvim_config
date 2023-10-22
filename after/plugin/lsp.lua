@@ -15,5 +15,15 @@ vim.g.lsp_zero_extend_lspconfig=0
 
 
 
+local lspconfig = require('lspconfig')
 
+lspconfig.tsserver.setup{
+    init_options = {
+        prefreneces = {
+            disableSuggestions=true
+        }
+    }
+
+}
+vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float)
 
