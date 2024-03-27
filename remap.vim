@@ -19,6 +19,7 @@ nnoremap <leader>l :wincmd l <CR>
 
 nnoremap <silent><leader><tab> <cmd>BufferLineCycleNext<CR>
 nnoremap<silent><leader><S-tab> <cmd>BufferLineCyclePrev<CR>
-
-
+"Compile keys for arduino
+nnoremap <leader>o :lua require("nvterm.terminal").send("arduino-cli compile --fqbn arduino:avr:nano:cpu=atmega328old ","horizontal")<CR>
+nnoremap <leader>u :lua require("nvterm.terminal").send("arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:nano:cpu=atmega328old")<CR>
 

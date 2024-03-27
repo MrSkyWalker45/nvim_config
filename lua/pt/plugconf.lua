@@ -18,6 +18,7 @@ Plug 'folke/lsp-colors.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'akinsho/bufferline.nvim'
 Plug 'joshdick/onedark.vim'
+Plug 'tiagovla/tokyodark.nvim'
 
 --Formating
 
@@ -52,5 +53,5 @@ Plug "sbdchd/neoformat"
 
 vim.call('plug#end')
 vim.cmd[[
- colorscheme tokyonight
+ colorscheme onedark
 ]]
